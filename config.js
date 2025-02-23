@@ -14,8 +14,8 @@ import dotenv from 'dotenv'
 //BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +923092668108
-global.confirmCode = "" 
+global.botNumberCode = "+2348106546983" //Example: +923092668108
+global.confirmCode = "+2348106546983" 
 
 
 //💌------------------------------------------💌
@@ -25,9 +25,9 @@ global.confirmCode = ""
 
 
 //💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923092668108'] 
-global.prems = ['923092668108']
-global.allowed = ['923092668108']
+global.mods = ['2348106546983'] 
+global.prems = ['2348106546983']
+global.allowed = ['2348106546983']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -131,9 +131,9 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 //Sticker WM
 global.wm = process.env.BOT_NAME
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
+global.princebot = '🛡️BRYAN-𝘉𝘖𝘛-𝘔𝘋🛡️'
 global.packname = process.env.PACK_NAME
-global.author = 'Prince♥️' 
+global.author = 'bryan♥️' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
@@ -163,7 +163,7 @@ dotenv.config()
 
 const ownervb = process.env.OWNER_NUMBER;
 if (!ownervb){
-   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
+   throw new Error("2348106546983");
 }
 
 const ownerlist = ownervb.split(',');
